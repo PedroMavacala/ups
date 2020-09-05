@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    
+}
+div#face{
+    background-color: blue;
+    width: 600px;
+    height: 800px;
+}
+p#login{
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 60px;
+    border: 3px solid red;
+    padding: 5px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: cursive;
+    color: blue;
+}    
+p#signup{
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 60px;
+    border: 3px solid red;
+    padding: 5px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: cursive;
+    color: blue;
+}    
+p#login a{
+    text-decoration: none;
+    
+}
+p#signup a{
+    text-decoration: none;
+}
+
+p#login a:hover{
+    color: red;
+   } 
+p#signup a:hover{
+    color: red;
+   } 

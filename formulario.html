@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formulario.css">
+        <title></title>
+    </head>
+    
+<body>
+    <form>
+        <fieldset><legend><p>Dados da Escola</p></legend>
+         <p><label for="cins">Nome da Instituição</label> <input type="text" name="" id="cins" maxlength="" size="25" placeholder="escreva o nome da sua escola...." list="escolas">
+            </p>
+            
+            <datalist id="escolas">
+                <option value="IMIL"></option>
+                <option value="IMEL"></option>
+                <option value="MAGISTÉRIO MUTU YA KEVELA"></option>
+                <option value="NZINGA MBANDI"></option>
+                <option value="NGOLA KILUANGE"></option>
+                <option value="IMEC"></option>
+            </datalist>
+            
+            <p>Endereço <input type="text" name="" id="" placeholder="Rua, Av.....">
+                <label for="cprov">Províncias</label> <select name="" id="cprov">
+                <optgroup label="Sul">
+                    <option>Huambo</option>
+                    <option>Benguela</option>
+                    <option>Huila</option>
+                    <option>Bié</option>
+                    </optgroup>
+                <optgroup label="Norte">
+                    <option>Malange</option>
+                    <option>Cabinda</option>
+                    <option>Zaire</option>
+                    <option>Uíge</option>
+                    <option selected>Luanda</option>
+                </optgroup>
+                </select>
+                
+                <label for="muni">Município</label> <input type="text" name="" id="muni" list="town" placeholder="digite aqui o seu municí...">
+                
+                <datalist id="town">
+                    <option value="Talatona"></option>
+                    <option value="Cazenga"></option>
+                    <option value="Cacuaco"></option>
+                    <option value="Icolo e Bengo"></option>
+                    <option value="Kilamba Kiaxi"></option>
+                    <option value="Belas"></option>
+                    <option value="Quiçama"></option>
+                    <option value="Luanda"></option>
+                    <option value="Viana"></option>
+                </datalist>
+                
+            </p>
+            
+            
+         <p><label for="cniv">Níveis de Ensino</label> <select name="" id="cniv">
+             <option>Creche</option>
+             <option>Primário</option>
+             <option>I. Cíclo</option>
+             <option>Ensino Médio</option>
+             <option>Universitário</option>
+             <option>Primário,I. Cíclo,Médio</option>
+             <option>I.Ciclo,Médio</option>
+             <option>Outro</option>
+             
+             </select>
+            </p>
+         <p><label for="cnasc">Data de Criação</label> <input type="date" name="" id="cnasc" maxlength="" size="" placeholder=""></p>
+         <p><label for="cpay">Modalidade de Pagamento</label> 
+             <select name="" id="cpay">
+             <option>Transferência Bancária</option>
+             <option>Pagamento por depósito</option>
+             <option>Pagamento em Cash</option>
+             
+             </select>
+            </p>
+         <p><label for="ccontrato">Data do Contrato</label> <input type="date" name="" id="ccontrato" maxlength="" size="" placeholder=""></p>
+         <p><label for="ctel">Telefone</label> <input type="tel" name="" id="ctel" value="+244"> 
+                      <label for="cmail">Email</label> <input type="email" name="" id="cmail" value="" placeholder="example@gmail.com">
+             
+        </p>
+         <fieldset>Clique<a href="">Aqui</a> para ler as clausulas do contrato antes de aceitar.
+         <p style="color: blue">Li todas as clausulas do contrato e:<br>
+        <input type="radio" name="tsave" id="csave" maxlength="" size="" placeholder=""><label for="csave">concordo</label><br>
+        <input type="radio" name="tsave" id="ccsave" maxlength="" size="" placeholder=""><label for="ccsave">não concordo</label></fieldset>
+            </p>
+        <input type="submit" value="voltar" name="" id="">
+        <input type="submit" value="enviar" name="" id="">
+    
+    </fieldset>
+    
+    </form>
+    
+</body>
+
+
+
+</html>
